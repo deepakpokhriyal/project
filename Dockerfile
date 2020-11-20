@@ -1,3 +1,3 @@
-from nginx
-ADD index.html /usr/share/nginx/
+FROM nginx
+COPY index.html /usr/share/nginx/index.html
 
